@@ -1,5 +1,7 @@
 package gestion_notes;
 
+
+
 public class Etudiant {
 	private int id;
 	private String nom;
@@ -16,5 +18,14 @@ public class Etudiant {
 	public String toString() {
 		return this.nom+" : "+this.note;
 	}
+	
+	//redéfinition de la méthode equals
+	public boolean equals(Object obj) {
+		if (! (obj instanceof Etudiant) ){
+			return false;
+		}
+		return (((Etudiant)obj).id==this.id);
+	}
+	
 
 }
