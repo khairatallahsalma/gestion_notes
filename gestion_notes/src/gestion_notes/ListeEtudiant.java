@@ -6,5 +6,7 @@ public class ListeEtudiant extends ArrayList<Etudiant> {
 		if(this.contains(e)) return false;
 		return super.add(e);
 	}
+	
+	
 
 }
