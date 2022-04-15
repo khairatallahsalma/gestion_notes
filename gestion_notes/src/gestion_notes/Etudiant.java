@@ -11,5 +11,10 @@ public class Etudiant {
 		this.nom=nom;
 		this.note=10;
 	}
+	
+	//redéfinition de la méthode tostring 
+	public String toString() {
+		return this.nom+" : "+this.note;
+	}
 
 }
