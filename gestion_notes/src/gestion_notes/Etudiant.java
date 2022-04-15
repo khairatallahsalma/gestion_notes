@@ -43,15 +43,8 @@ public class Etudiant implements Comparable<Etudiant> {
 		
 	}
 	
-	public static void main (String[] args) {
-		Etudiant e1 , e2 ,e3 ;
-		e1=new Etudiant(111,"ahmad");
-		e2=new Etudiant(222, "salma" , 12.00);
-		e3=new Etudiant(333, "fatima");
-		System.out.println(e1);
-		System.out.println(e2);
-		System.out.println(e3);
-	}
+	
+	
 	
 	
 
