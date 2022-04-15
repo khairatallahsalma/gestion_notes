@@ -3,7 +3,7 @@ package gestion_notes;
 
 
 public class Main {
-	public static void main() {
+	public static void test() {
 		Etudiant e1 , e2 , e3;
 		e1=new Etudiant(1, "hamid");
 		e2=new Etudiant(2, "driss");
@@ -11,5 +11,9 @@ public class Main {
 		
 		
 	}
+	public static void main(String[] args) {
+		test();
+	}
+	
 
 }
